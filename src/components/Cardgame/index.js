@@ -1,6 +1,7 @@
 import './style.css'
 
-function CardGame(tag, content){
+
+function CardGame(){
     return`
     <article class="card-game">
     <img src="./src/components/images/Letra A.png" alt="Logo nome Anthony">
@@ -8,5 +9,6 @@ function CardGame(tag, content){
     
     `
 }
+
 
 export default CardGame
