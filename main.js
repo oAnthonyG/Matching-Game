@@ -7,7 +7,7 @@ import BoardGame from './src/Objects/BoardGame'
 
 
 const $root = document.querySelector('#root')
-const $htmlBoardGame = BoardGame(8)
+const $htmlBoardGame = BoardGame(6)
 const $textCardGame = Player()
 
 
