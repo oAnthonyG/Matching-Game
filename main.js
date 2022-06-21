@@ -1,20 +1,28 @@
 import './src/style/settings/colors.css'
 import './src/style/elements/generic/reset.css'
 import './src/style/elements/base.css'
-import Player from './src/components/Text-card'
+
 import BoardGame from './src/Objects/BoardGame'
+import PlayerName from './src/components/PlayerName'
 
 
 
 const $root = document.querySelector('#root')
-const $htmlBoardGame = BoardGame(6)
-const $textCardGame = Player()
+
+ 
 
 
 
 
-$root.insertAdjacentHTML('beforeend', $htmlBoardGame)
-$root.insertAdjacentHTML('beforebegin', $textCardGame)
+$root.insertAdjacentHTML(
+    'beforeend', 
+    `
+        ${PlayerName('Player1')} 
+        ${PlayerName('Player2')} 
+        ${BoardGame(6)}
+    `
+)
+
 
 
 
