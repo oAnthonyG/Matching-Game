@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+
+html, body{
+    font-size: 10px;
+    height: 100%;
+}
 body{
     max-width: 320px;
     margin-inline: auto;
