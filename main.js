@@ -4,7 +4,6 @@ import './src/style/elements/base.css'
 
 
 import ScoreBoard from './src/Objects/ScoreBoard'
-
 import BoardGame from './src/Objects/BoardGame'
 
 
@@ -12,10 +11,6 @@ import BoardGame from './src/Objects/BoardGame'
 const $root = document.querySelector('#root')
 
  
-
-
-
-
 $root.insertAdjacentHTML(
     'beforeend', 
     `
